@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="clock()">
+    <h1 style="text-align: center;">JS Practice</h1>
+    <h2 style="text-align: center;">Open test.js File Beside To Understand Output</h2>
+    <div class="clock">
+        <h1 style="text-align: center;"></h1>
+    </div>
+    <div class="DOM design">
+        <h3 style="text-align: center;">DOM Manipulation Output</h3>
+        <h2 id="id_0"></h2>
+        <input type="text" name="js_name">
+        <button onclick="getname()">Click</button>
+        <h2 class="js_h2"></h2>
+        <h2 class="js_h2"></h2>
+        <h2 class="js_h2"></h2>
+    </div>
+    <div class="Operator design">
+        <h3 style="text-align: center;">Operators Output</h3>
+        <h2 id="op_1"></h2>
+        <h2 id="op_2"></h2>
+        <h2 id="op_3"></h2>
+        <h2 id="op_4"></h2>
+        <h2 id="op_5"></h2>
+        <h2 id="op_6"></h2>
+        <h2 id="op_7"></h2>
+    </div>
+    <div class="Function design">
+        <h3 style="text-align: center;">Functions Output</h3>
+        <div class="Greeting" style="margin-bottom: 10px;">
+            <input type="text" name="name1" id="func_1">
+            <button onclick="greeting()">Greeting</button>
+            <h2 class="greet"></h2>
+        </div>
+        <div class="Calculator">
+            <input type="number" name="first" id="cal_num1" >
+            <select name="operator" id="cal_ope">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <input type="number" name="second" id="cal_num2" >
+            <button onclick="calculator()">Calculate</button>
+            <h2 id="cal_res"></h2>
+        </div>
+        <div class="UserInput">
+            <h2> Name: <i id="inp_name"></i></h2>
+            <button onclick="InputName()"> Click Here For Input</button>
+        </div>
+    </div>
+    <div class="condition design">
+        <h3 style="text-align: center;">Conditional statement Output</h3>
+        <h2>
+
+        </h2>
+    </div>
+    <div class="loop design">
+        <h3 style="text-align: center;">JS Loop Output</h3>
+        <h3 id="for"></h3>
+        <h3 id="while"></h3>
+        <h3 id="for_each"></h3>
+        <h3 id="continue"></h3>
+        <h3 id="break"></h3>
+    </div>
+    <div class="array design">
+        <h3 style="text-align: center;">JS Array Output</h3>
+        <h3 id="arr0"></h3>
+        <h3 id="arr1"></h3>
+        <h3 id="arr2"></h3>
+        <h2 id="arr3"></h2>
+        <button onclick="push_value()">Push</button>
+        <button onclick="pop_value()">Pop</button>
+        <button onclick="slice_value()">Slice</button>
+        <button onclick="reverse_value()">Reverse</button>
+        <button onclick="shift_value()">Shifting</button>
+    </div>
+    <div class="date design">
+        <h3 style="text-align: center;">Js Date Methods Output</h3>
+        <h2>Date: <i id="date"></i></h2>
+        <h2>Year: <i id="year"></i></h2>
+        <h2>Month: <i id="month"></i></h2>
+        <h2>Day: <i id="day"></i></h2>
+        <h2>Hours: <i id="hours"></i></h2>
+        <h2>Minutes: <i id="minutes"></i></h2>
+        <h2>Seconds: <i id="seconds"></i></h2>
+        <h2>Milliseconds: <i id="milliseconds"></i></h2>
+    </div>
+    <div class="interval design">
+        <h3 style="text-align: center;">JS Interval Methods Output</h3>
+        <h3 >"Click Button to pop up a alert box, and Click clearInterval Button to stop"</h3>
+        <button onclick="setinter()">SetInterval</button>
+        <button onclick="stopinter()">clearInterval</button>
+        <button onclick="settimeo()">SetTimeout</button>
+        <button onclick="stoptimeo()">clearTimeout</button>
+    </div>
+    <div class="css design">
+        <h3 style="text-align: center;">CSS modified Output</h3>
+        <h2 id="css" onmouseenter="modify()" onmouseleave="unmodify()"> This is JS</h2>
+    </div>
+    <div class="window design">
+        <h3 style="text-align: center;">Js Pop up window Methods Output</h3>
+        <button onclick="openwin()">Open window</button>
+        <button onclick="closewin()">close window</button>
+    </div>
+    <div class="problems design">
+        <h3 style="text-align: center;">Basic Problem Solving Output</h3>
+        <h3 id="random"></h3>
+        <h3 id="sort"></h3>
+        <h3 id="leap"></h3>
+        <h3 id="vowel"></h3>
+    </div>
+    <script src="test.js"></script>
+</body>
+
+</html>
